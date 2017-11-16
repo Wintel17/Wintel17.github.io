@@ -17,7 +17,7 @@
     </head>
     <body>
         <div id="main">
-            <div id="error">亲，您使用的浏览器无法支持即将显示的内容，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器哟~</div>
+            <div id="error">亲，您使用的浏览器无法支持即将显示的内容，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器</div>
             <div id="wrap">
                <div id="text">
                     <div id="code">                 
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div id="clock-box">
-                    <a href="#" target="_blank">@AAA</a> 与 <a href="#" target="_blank">@BBB</a> 在一起的
+                    <a href="#" target="_blank">@葛秀杰</a> 与 <a href="#" target="_blank">@BBB</a> 在一起的
                         <div id="clock"></div>
                     <br>
                 </div>
@@ -165,7 +165,7 @@
             foot.draw();
             tree.snapshot("p2", 500, 0, 610, 680);
 
-            // 会有闪烁不得意这样做, (＞﹏＜)
+            // 会有闪烁
             canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
             canvas.css("background", "#ffe");
             $await(Jscex.Async.sleep(300));
